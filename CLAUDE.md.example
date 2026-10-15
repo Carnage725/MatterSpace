@@ -1,0 +1,22 @@
+# Project Memory (local, via MCP)
+
+This project has a local memory tool available: `remember`, `recall`, `list_memories`.
+Use `project_id` = the repo folder name (e.g. "micromem").
+
+## When to call `remember`
+- We make an architectural or library decision (and why).
+- We hit a non-obvious gotcha or bug and its fix.
+- We set a convention (naming, folder structure, tooling choice).
+- The user states a lasting preference about how this project should be built.
+
+Do NOT log routine implementation details, ephemeral debugging, or anything
+already obvious from the code itself.
+
+## When to call `recall`
+- At the start of a session, before making changes: recall relevant past
+  decisions for the area you're about to touch.
+- Before proposing an architectural change: recall if this was already
+  decided/rejected before.
+
+## When to call `list_memories`
+- Once, at the very start of a new session, to load full project context.
